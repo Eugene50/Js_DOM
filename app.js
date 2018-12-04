@@ -1,6 +1,7 @@
 window.onload = function () {
   const container  = document.getElementById("container");
   var content = document.getElementById("content");
+  var menu = document.getElementById("menu");
 
 
 const x = document.createElement("h1");
@@ -22,10 +23,11 @@ if(el.target.tagName != 'p') {
 content.innerHTML = currentOboe.text + `<img src = "${currentOboe.img}" class = "img">`; 
 })
 
-//  container.addEventListener("click", function () {
-//  div.classList.toggle('visible');
+  menu.addEventListener("click", function (e) {
+  container.classList.toggle('open');
+  e.stopPropagation();
 
-// })
+ })
 
 };
 
