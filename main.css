@@ -3,6 +3,7 @@ body {
    margin: 0;
    padding: 0;  
    overflow: hidden;
+   justify-content: center;
 
 }
 
@@ -19,28 +20,44 @@ p {
 }
 p:hover {
    background-color: red;
-   width: 11.5%;
+   width: 50%;
    border-radius: 15%;
+}
+.wrap {
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   border : solid;
 }
 
 #container {
-   width: 100%;
+   width: 20%;
    display: flex;
-   justify-content: space-around;
    flex-direction: column;
-   flex-wrap: nowrap;
+   flex-wrap: wrap;
+   border: solid;
+   color: royalblue;
+}
+#content {
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+   font-size: 20px;
+   border: solid;
+   padding: 0;
+   color: rgb(224, 223, 223)
 }
 
 div {
-   padding: 27px;
+   padding: 27px 0 27px 27px;
    font-size: 30px;
    width: 10%;
    
 }
 
-.inst:hover {
-   background-color: red;
-   width: 10%;
+p:hover {
+   background-color: rgb(243, 118, 118);
+   width: 120px;
    border-radius: 15%;
 }
 
@@ -55,5 +72,13 @@ div {
 }
 #dupin {
    color: chartreuse;
+}
+
+.img {
+   width: 300px;
+   height: 200px;
+   margin-top: 50px;
+   font-size: 20px;
+   padding-left: 110px;
 }
 
