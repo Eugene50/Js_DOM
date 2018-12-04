@@ -27,7 +27,6 @@ p:hover {
    width: 100%;
    display: flex;
    flex-wrap: wrap;
-   border : solid;
 }
 
 #container {
@@ -35,7 +34,6 @@ p:hover {
    display: flex;
    flex-direction: column;
    flex-wrap: wrap;
-   border: solid;
    color: royalblue;
 }
 #content {
@@ -43,7 +41,6 @@ p:hover {
    flex-direction: column;
    width: 50%;
    font-size: 20px;
-   border: solid;
    padding: 0;
    color: rgb(224, 223, 223)
 }
