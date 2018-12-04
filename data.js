@@ -29,7 +29,7 @@ var data = [
  
        text: 'Further to the success gained by this instrument - that the oboists describe as being a revolution in the world of the oboe - some Japanese and European manufacturers tried to copy Impérial Dupin without however managing ever to equal the quality of the sound and the general quality of the instrument.',
  
-       img: 'http://www.loree-paris.com/wp-content/uploads/2014/02/slide-8.jpghttp://www.dolce.co.jp/img/product/oboe/dupin/imp_02.jpg'
+       img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Oboe_modern.jpg/1200px-Oboe_modern.jpg"
     }
 ];
 
