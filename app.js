@@ -9,14 +9,14 @@ window.onload = function () {
 
   data.forEach(function (value) {  
     const paragraph = document.createElement("p");
-    paragraph.id = value.name;
-    paragraph.innerHTML = value.name;
+    paragraph.id = value.id;
+    paragraph.innerHTML = value.id;
     container.appendChild(paragraph);
   });
 
   container.addEventListener("click", function (el) {
     if(el.target.tagName != "p") {
-       var currentOboe = data.find(value => value.name === el.target.id);
+       var currentOboe = data.find(value => value.id === el.target.id);
   }
     content.innerHTML = currentOboe.text + `<img src = "${currentOboe.img}" class = "img">`; 
   })
